@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sistema de alumnos calificaciones</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Sistema de alumnos califiaciones</h1>
+
+  <form id="libroForm">
+    <input type="text" id="nombre" placeholder="Nombre" required />
+    <input type="text" id="apellido" placeholder="Apellido" required />
+    <input type="number" id="anio" placeholder="edad" required />
+    <input type="number" id="anion" placeholder="num.control" required />
+    <input type="text" id="materias" placeholder="Materias" required />
+    <input type="text" id="anion" placeholder="Calificacion" required />
+     <input type="number" id="anion" placeholder="Materias adeudadas" required />
+    <button type="submit">Guardar</button>
+  </form>
+
+  <input type="text" id="buscarInput" placeholder="Buscar por nombre" />
+  <button onclick="buscarLibro()">Buscar</button>
+
+  <div id="listaLibros"></div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
